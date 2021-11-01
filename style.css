@@ -14,7 +14,7 @@ body {
 }
 
 body .fundo{
-    background: url(../imagens/fundo01.jpg) no-repeat;
+    background: url(imagens/fundo01.jpg) no-repeat;
     background-position: center;
     background-size: cover;
     height: 750px;
