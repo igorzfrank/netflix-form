@@ -1,0 +1,168 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    font-family: sans-serif;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    transition: all .1s linear;
+}
+
+body {
+    background: black;
+}
+
+body .fundo{
+    background: url(../imagens/fundo01.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 750px;
+}
+
+header img {
+    margin-top: 25px;
+    margin-left: 25px;
+    width: 200px;
+}
+
+.container {
+    display: block;
+    background: rgba(0, 0, 0, 0.9);
+    margin: auto;
+    width: 400px;
+    height: 500px;
+    color: #fff;
+    padding: 50px 50px 50px 50px;
+}
+
+.container h1 {
+    margin-bottom: 20px;
+    font-size: 25px;
+}
+
+.container .box {
+    margin: auto;
+    align-items: center;
+    width: 100%;
+    padding: 10px 15px;
+    background: #333333;
+    color: #757575;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+.container .btn {
+    width: 100%;
+    background: #e50915;
+    color: #fff;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    padding: 10px 0px;
+    border-radius: 5px;
+    font-size: 12px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.container .btn:hover {
+    background: #e50914cc;
+}
+
+.container #check {
+    background: #757575;
+}
+
+.container .ajuda {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 150px;
+}
+
+.container .ajuda .lembre {
+    display: flex;
+}
+
+.container .ajuda .lembre span {
+    color: #757575;
+    font-size: 13px;
+}
+
+.container form a {
+    color: #757575;
+    font-size: 13px;
+}
+
+.container form a:hover {
+    color: #fff;
+}
+
+.container p {
+    color: #757575;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.container .rodape {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.container .rodape img {
+    width: 20px;
+}
+
+.container span {
+    color: #757575;
+    font-size: 14px;
+    margin-left: 5px;
+}
+
+.container .face {
+    color: #757575;
+}
+
+.container .assinatura {
+    color: #fff;
+}
+
+.container .assinatura:hover {
+    color: #e50915;
+}
+
+@media (max-width:600px) {
+
+    header {
+        background: rgba(0, 0, 0, 0.9);
+        text-align: center;
+    }
+
+    header img {
+        margin-left: 0;
+    }
+    .container {
+        width: 100%;
+        height: 100%;
+        padding: 70px;
+    }
+
+    .fundo {
+        text-align: center;
+    }
+
+    .fundo .rodape {
+        justify-content: center;
+    }
+
+}
+
+
+
+/* Cores
+
+    Vermelho #e50915
+    Cinza Escuro #333333;
+    Cinza Claro #757575;
+
+    */
